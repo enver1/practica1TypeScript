@@ -1,20 +1,18 @@
 "use strict";
 (function () {
-    let mensaje = 'hola';
-    let numero = 123;
-    let booleano = true; // false
-    let hoy = new Date();
-    let cualquiercosa;
-    cualquiercosa = mensaje;
-    cualquiercosa = numero;
-    cualquiercosa = booleano;
-    cualquiercosa = hoy;
-    let spiderman = {
-        nombre: 'Enver',
-        edad: 30
-    };
-    spiderman = {
-        nombre: 'Juan',
-        edad: 40
-    };
+    function getEdadNoReal() {
+        return 100 + 100 + 300;
+    }
+    const nombre = 'Enver';
+    const apellido = 'Flores';
+    const edad = 33;
+    //const salida = nombre + " " + apellido + " (" + edad + ")";
+    // Enver Flores ( Edad:33)
+    // Baketik
+    // const salida = `imprime cadena con baketik`;
+    const salida = `${nombre} \n${apellido} tiene edad de ( ${edad + 3} ) y se pone una edad no real de ${getEdadNoReal()}`;
+    // Enver 
+    // Flores tiene edad de ( 36 ) y se pone una edad no real de 
+    // 500
+    console.log(salida);
 })();

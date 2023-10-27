@@ -1,17 +1,17 @@
 
 
 (function(){
-    function saludar( nombre:string ) {
-        console.table( 'Hola .. ' + nombre ); // Hola Logan
-    }
-    
-    
-    const wolverine = {
-        nombre: 'Logan'
-    };
-    
-    
-    saludar( wolverine.nombre );
+
+const ms = 'holaConstante';
+var mensaje = 'Hola';
+if(true){
+   var mensaje = 'mundo';
+}
+
+console.log(mensaje);
+console.log( ms );
+
+
 })();
 
 

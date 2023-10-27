@@ -1,10 +1,10 @@
 "use strict";
 (function () {
-    function saludar(nombre) {
-        console.table('Hola .. ' + nombre); // Hola Logan
+    const ms = 'holaConstante';
+    var mensaje = 'Hola';
+    if (true) {
+        var mensaje = 'mundo';
     }
-    const wolverine = {
-        nombre: 'Logan'
-    };
-    saludar(wolverine.nombre);
+    console.log(mensaje);
+    console.log(ms);
 })();

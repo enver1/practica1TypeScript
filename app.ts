@@ -1,8 +1,8 @@
 
 
 (function(){
-    function saludar( nombre ) {
-        console.table( 'Hola ' + nombre ); // Hola Logan
+    function saludar( nombre:string ) {
+        console.table( 'Hola .. ' + nombre ); // Hola Logan
     }
     
     
